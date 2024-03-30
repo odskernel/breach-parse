@@ -1,5 +1,5 @@
 # breach-parse
-A tool for parsing breached passwords
+A tool for parsing breached passwords from combo-lists.
 
 ### Installation
 
@@ -10,5 +10,9 @@ Download breached password list from magnet located here: `magnet:?xt=urn:btih:7
 If you don't store the password list (BreachCompilation) in `/opt/breach-parse`, specify the location like: 
 
 `breach-parse @gmail.com gmail.txt "~/Downloads/BreachCompilation/data"`
+
+If you want to search with multiple domain:
+
+`./breach-parse "@gmail.com|@yahoo.com" gmail_yahoo.txt "~/Downloads/BreachCompilation/data"`
 
 Run `breach-parse` for instructions
